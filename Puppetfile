@@ -59,3 +59,9 @@ github "xquartz",     "1.1.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "java",	    "1.5.0"
+github "dropbox",     "1.2.0"
+github "firefox",     "1.2.0"
+github "chrome",      "1.1.2"
+github "osx",         "2.5.0"
