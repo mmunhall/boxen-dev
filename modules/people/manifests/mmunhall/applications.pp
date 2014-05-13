@@ -9,6 +9,10 @@ class people::mmunhall::applications {
 	include spotify
 	include arduino
 
+	class { 'vmware_fusion' :
+		version => '5.0.3-1040386',
+	}
+
 	class { 'intellij' :
 		edition => 'ultimate',
 		version => '13.1.2',
