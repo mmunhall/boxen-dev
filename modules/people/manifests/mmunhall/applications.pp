@@ -1,11 +1,13 @@
 class people::mmunhall::applications {
 
 	include java
-	include dropbox
 	include firefox
 	include chrome
-	include arduino
 	include zsh
+
+	include dropbox
+	include spotify
+	include arduino
 
 	class { 'intellij' :
 		edition => 'ultimate',
