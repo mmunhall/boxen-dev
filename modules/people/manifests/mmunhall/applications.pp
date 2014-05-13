@@ -4,7 +4,7 @@ class people::mmunhall::applications {
 	include dropbox
 	include firefox
 	include chrome
-	# include arduino
+	include arduino
 	include zsh
 
 	class { 'intellij' :

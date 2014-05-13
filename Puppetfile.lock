@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: boxen/puppet-arduino
+  specs:
+    arduino (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.4.2)
@@ -134,6 +139,7 @@ GITHUBTARBALL
     module-data (0.0.3)
 
 DEPENDENCIES
+  arduino (= 1.0.1)
   boxen (= 3.4.2)
   chrome (= 1.1.2)
   dnsmasq (= 1.0.1)
