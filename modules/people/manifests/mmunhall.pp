@@ -6,5 +6,6 @@ class people::mmunhall {
 	include people::mmunhall::osx
 	include people::mmunhall::dotfiles
 	include people::mmunhall::hosts
+	include people::mmunhall::repos
 
 }

@@ -4,12 +4,11 @@ class people::mmunhall::dotfiles {
 	$workspace_dir = "${home}/Documents/workspace"
 
 	repository { "${workspace_dir}/dotfiles":
-		# source => "${::github_user}/dotfiles"
-		source => "https://github.com/${::github_login}/dotfiles.git",
+		source => "git@github.com:${::github_login}/dotfiles.git",
 	}
 
 	repository { "${workspace_dir}/oh-my-zsh":
-		source => "https://github.com/${::github_login}/oh-my-zsh.git",
+		source => "git@github.com:${::github_login}/oh-my-zsh.git",
 	}
 
 	file { "${home}/.zshrc":
