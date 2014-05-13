@@ -1,7 +1,7 @@
 class people::mmunhall::hosts {
 
 	host {
-	    'caasvm': ip => '192.168.10.31';
-	    'oraclehost': ip => '192.168.10.31';
+	    'caasvm': ip => '172.16.98.129';
+	    'oraclehost': ip => '172.16.98.129';
 	}
 }
