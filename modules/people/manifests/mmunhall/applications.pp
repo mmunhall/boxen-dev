@@ -4,6 +4,12 @@ class people::mmunhall::applications {
 	include dropbox
 	include firefox
 	include chrome
+	# include arduino
+
+	class { 'intellij':
+		edition => 'ultimate',
+		version => '13.1.2'
+	}
 
 	package { 'Atom 0.94':
 		ensure => installed,
