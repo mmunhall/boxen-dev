@@ -1,6 +1,6 @@
 class people::mmunhall::osx {
 
-	osx::recovery_message { 'If this Mac is found, please call 303-514-9144.': }
+	osx::recovery_message { 'Nacho Mac': }
 	include osx::global::enable_standard_function_keys
 	include osx::global::expand_print_dialog
 	include osx::global::expand_save_dialog
