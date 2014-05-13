@@ -114,6 +114,11 @@ GITHUBTARBALL
     xquartz (1.1.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-zsh
+  specs:
+    zsh (1.0.0)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.0.3)
@@ -155,4 +160,5 @@ DEPENDENCIES
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
   xquartz (= 1.1.1)
+  zsh (= 1.0.0)
 

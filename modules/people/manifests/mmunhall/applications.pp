@@ -5,13 +5,14 @@ class people::mmunhall::applications {
 	include firefox
 	include chrome
 	# include arduino
+	include zsh
 
-	class { 'intellij':
+	class { 'intellij' :
 		edition => 'ultimate',
-		version => '13.1.2'
+		version => '13.1.2',
 	}
 
-	package { 'Atom 0.94':
+	package { 'Atom 0.94' :
 		ensure => installed,
 		source => 'https://github.com/atom/atom/releases/download/v0.94.0/atom-mac.zip',
 		provider => compressed_app,
